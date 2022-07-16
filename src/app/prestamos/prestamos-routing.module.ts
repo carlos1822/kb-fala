@@ -6,6 +6,10 @@ import { FaqComponent } from './pages/faq/faq.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 
+try {
+  document.getElementsByClassName('maincss')[0].remove();
+} catch (error) {}
+
 const routes: Routes = [
   {
     path: '',
