@@ -1,1 +1,99 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  scroll-behavior: smooth !important;
+  margin: 0 auto !important;
+}
+body {
+  width: 100% !important;
+  height: 100% !important;
+}
+.kctrl {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  text-align: center !important;
+  font-size: 15px !important;
+}
+input,
+input:active,
+input:focus,
+input:focus-within,
+input:hover,
+input:visited {
+  font-size: 16px !important;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select:focus,
+  textarea:focus,
+  input:focus {
+    font-size: 16px;
+  }
+}
+.wwwmenu {
+  width: 90% !important;
+  height: 100px;
+  background-color: #212529 !important;
+  text-align: center !important;
+  margin: auto !important;
+}
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.popup {
+  min-width: 350px;
+  max-width: 500px;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  z-index: 2;
+  text-align: center;
+  opacity: 0;
+  top: -200%;
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: opacity 300ms ease-in-out, top 1000ms ease-in-out,
+    transform 1000ms ease-in-out;
+}
+.popup.active {
+  opacity: 1;
+  top: 45%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 300ms cubic-bezier(0.18, 0.89, 0.43, 1.19);
+}
+.popup > div {
+  position: relative;
+  top: 10px;
+  opacity: 0;
+}
+.popup.active > div {
+  top: 0px;
+  opacity: 1;
+}
+.popup.active .icon {
+  transition: all 300ms ease-in-out 250ms;
+}
+.popup.active .title {
+  transition: all 300ms ease-in-out 300ms;
+}
+.popup.active .description {
+  transition: all 300ms ease-in-out 350ms;
+}
+.popup.active .dismiss-btn {
+  transition: all 300ms ease-in-out 400ms;
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}

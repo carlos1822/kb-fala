@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-avances</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icn-avances">
+            <g id="Group-2-Copy-3" transform="translate(4.000000, 6.000000)">
+                <path d="M20.7442762,6.46153846 L20.7810606,6.46153846 C22.5697053,6.46153846 24.0196883,5.01144311 24.0196883,3.23076923 L24.0196883,3.23076923 C24.0196883,1.44646465 22.5712415,0 20.7802862,0 L3.23940204,0 C1.45032969,0 0,1.45009536 0,3.23076923 L0,3.23076923 C0,5.01507381 1.4461778,6.46153846 3.23862762,6.46153846 L3.27541204,6.46153846" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M8.32135703,4.64257239 C8.50324346,4.11775569 9.09148828,3.69230769 9.64197805,3.69230769 L14.3775573,3.69230769 C14.9250297,3.69230769 15.5178604,4.12228159 15.6981783,4.64257239 L19.1915641,14.7224183 C19.5538893,15.7678747 18.959905,16.6153846 17.8463529,16.6153846 L6.17318241,16.6153846 C5.06791757,16.6153846 4.46578787,15.7674654 4.82797125,14.7224183 L8.32135703,4.64257239 Z" id="trazado" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M18.4766833,20.3076923 C18.4766833,21.4122618 17.5876992,22.3076923 16.4841406,22.3076923 L7.53554769,22.3076923 C6.43509674,22.3076923 5.54300499,21.4199627 5.54300499,20.3076923 L18.4766833,20.3076923 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <ellipse id="Oval-10" fill="#FFFFFF" cx="12.0098441" cy="10.6153846" rx="2.77150249" ry="1.38461538"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

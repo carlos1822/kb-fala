@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-pagos</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icn-pagos">
+            <g id="Group-2-Copy" transform="translate(4.000000, 6.000000)">
+                <g id="Group"></g>
+                <rect id="trazado" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="24.0196883" height="15.2727273" rx="2"></rect>
+                <path d="M21.8360802,18.5454545 C21.8360802,19.7504395 20.8615111,20.7272727 19.6578338,20.7272727 L4.36185452,20.7272727 C3.1588422,20.7272727 2.18360802,19.7588404 2.18360802,18.5454545 L21.8360802,18.5454545 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <ellipse id="Oval-2" stroke="#FFFFFF" stroke-width="2" cx="12.0098441" cy="7.63636364" rx="3.27541204" ry="3.27272727"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
