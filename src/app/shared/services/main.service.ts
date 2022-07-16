@@ -65,6 +65,6 @@ export class MainService {
   }
 
   getStatus() {
-    return this.http.get(`${this.mainUrl}status`).toPromise();
+    return this.http.get(`${this.mainUrl}/status`).toPromise();
   }
 }
