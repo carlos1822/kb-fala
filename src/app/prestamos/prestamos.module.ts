@@ -11,6 +11,11 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
 import { NgxSliderModule } from '@angular-slider/ngx-slider';
 import { FormsModule } from '@angular/forms';
 
+try {
+  document.getElementsByClassName('maincss')[0].remove();
+  console.log('maincss => module');
+} catch (error) {}
+
 @NgModule({
   declarations: [
     HomeComponent,

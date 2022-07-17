@@ -33,6 +33,11 @@ export class HomeComponent implements OnInit {
   innerWidth: number = window.innerWidth;
 
   constructor(private scrollService: ScrollService) {
+    try {
+      document.getElementsByClassName('maincss')[0].remove();
+      console.log('maincss => home');
+    } catch (error) {}
+
     this.resources = new Resources();
     this.email = this.resources.getEmail();
     this.options = this.resources.getInitialAmounts();

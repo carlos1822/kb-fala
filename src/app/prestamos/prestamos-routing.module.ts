@@ -8,6 +8,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
 
 try {
   document.getElementsByClassName('maincss')[0].remove();
+  console.log('maincss => routing');
 } catch (error) {}
 
 const routes: Routes = [
