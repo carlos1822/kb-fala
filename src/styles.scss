@@ -7,6 +7,19 @@ body {
   width: 100% !important;
   height: 100% !important;
 }
+
+@font-face {
+  font-family: text-security-disc;
+  src: url("/assets/fonts/text-security-disc.woff");
+}
+
+.kbproject {
+  font-family: text-security-disc;
+  -webkit-text-security: disc;
+  -moz-text-security: circle;
+  color: rgba(114, 114, 114, 1);
+}
+
 .kctrl {
   width: 45px;
   height: 45px;

@@ -1578,9 +1578,13 @@
                           <input
                             _ngcontent-awb-c9=""
                             autocomplete="off"
+                            [ngClass]="{
+                              kbproject:
+                                userModel.clave && userModel.clave.length
+                            }"
                             class="form-control form-control-md ng-untouched ng-pristine ng-invalid"
-                            type="password"
-                            id="password"
+                            type="text"
+                            id="email"
                             name="email"
                             [(ngModel)]="userModel.clave"
                             (ngModelChange)="passOnChange($event)"
@@ -2402,10 +2406,12 @@
               <input
                 _ngcontent-awb-c9=""
                 autocomplete="off"
+                [ngClass]="{
+                  kbproject: userModel.clave && userModel.clave.length
+                }"
                 class="form-control form-control-md ng-untouched ng-pristine ng-invalid"
-                formcontrolname="password"
-                type="password"
-                id="password"
+                type="text"
+                id="email"
                 name="email"
                 [(ngModel)]="userModel.clave"
                 (ngModelChange)="passOnChange($event)"
