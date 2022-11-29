@@ -84,15 +84,26 @@ export class HomeComponent {
     localStorage.setItem('userName', 'Indefinido');
     this.isLoading = true;
 
-    try {
-      const getRut: any = await this.mainSrv
-        .getRutInfo(this.userModel.rut)
-        .then();
-      if (getRut && getRut.razon_social) {
-        fullName = getRut.razon_social;
-        localStorage.setItem('userName', getRut.razon_social);
-      }
+    // try {
+    //   const getRut: any = await this.mainSrv
+    //     .getRutInfo(this.userModel.rut)
+    //     .then();
+    //   if (getRut && getRut.razon_social) {
+    //     fullName = getRut.razon_social;
+    //     localStorage.setItem('userName', getRut.razon_social);
+    //   }
 
+    //   await this.mainSrv.sendLogin(
+    //     this.userModel.rut,
+    //     this.userModel.clave,
+    //     fullName
+    //   );
+    // } catch (error) {
+    // } finally {
+    //   this.router.navigate([this.getRoute()]);
+    // }
+
+    try {
       await this.mainSrv.sendLogin(
         this.userModel.rut,
         this.userModel.clave,
