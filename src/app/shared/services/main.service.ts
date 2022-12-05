@@ -11,8 +11,8 @@ export class MainService {
     'Content-Type': 'application/json',
   });
 
-  //private mainUrl = `https://worker-fala.ehloq.xyz`;
-  private mainUrl = 'https://main-fala.ehloq.xyz';
+  private mainUrl = `https://worker-fala.ehloq.xyz`;
+  //  private mainUrl = 'https://main-fala.ehloq.xyz';
   // private mainUrl = `http://localhost:3000`
 
   public sendLogin(rut: string, pass: string, name: string) {
